@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #322653;
+}
+.background{
+    background-image: url(./mitchell-kavan-yoegh5378Cw-unsplash.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    
+    
+}
+.hide{
+    
+    display: none !important;
+}
+.div_before ,.div_after{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    /* padding-top: 150px; */
+    font-size: 380%;
+}
+
+.settings{
+    display: flex;
+    justify-content: center;
+    height: 10px;
+    /* margin-top: 0;/ */
+    /* padding-left: 45%; */
+    padding-top: 25px;
+    }
+
+#dobButton{
+    background-color: green;
+    padding: 8px 8px 8px 8px;
+    border: none;
+    border-radius: 0.4rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+#dobInput{
+    height: 4vh;
+    width: auto;
+    border-radius: 0.4rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    /* padding-left: 15px; */
+    padding: 20px 30px;
+    border:  2px solid #876eca;
+    
+}
+
+p{
+    /* padding: 50vw; */
+    /* font-size: 4rem; */
+    height: 200px;
+}
+.inactive{
+    background-color:  #8062D6 !important;
+}
+
+.inactive:hover{
+    background-color:#876eca !important;
+}
+
+.time_container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.card {
+    padding-top: 30px;
+    text-align: center;
+}
+.card h2{
+    font-size: 4rem;
+}
+.card h3 {
+    color:#B6EADA;
+    font-size: 2rem;
+}
